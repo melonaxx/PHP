@@ -1,9 +1,0 @@
-$(function(){
-	$(".table-input").on("dblclick",function(){
-		$(this).removeAttr("readonly");
-		$(this).focus();
-	});
-	$(".table-input").on("blur",function(){
-		$(this).attr("readonly","readonly");
-	})
-})

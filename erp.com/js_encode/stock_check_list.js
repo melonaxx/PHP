@@ -1,9 +1,0 @@
-$(function(){
-//日期
-	$('input[name="date_state"],input[name="date_end"]').datetimepicker({
-		language:'zh-CN',
-		format:'yyyy-mm-dd',
-		autoclose:true,
-		minView:2,
-    });
-});
